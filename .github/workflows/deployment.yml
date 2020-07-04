@@ -36,5 +36,6 @@ jobs:
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "build/"
           REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_PORT: ${{ secrets.PORT }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: ${{ secrets.TARGET }}
